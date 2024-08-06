@@ -33,41 +33,41 @@ const perguntas = [
         ]
     },
     {
-        enunciado: "Lewis 
+        enunciado: "Depois de fazer isso lewis fica muito bravo e briga com voce, o que voce faz?
          ",
-        alternativas: [
+        alternativas: "positivo"
             {
-                texto: "Defende a ideia de que a IA pode criar novas oportunidades de emprego e melhorar habilidades humanas.",
+                texto: "ri da cara dele",
                 afirmacao: "positivo"
             },
             {
-                texto: "Me preocupo com as pessoas que perderão seus empregos para máquinas e defendem a importância de proteger os trabalhadores.",
+                texto: "ameaça ele",
                 afirmacao: "negativo"
             }
         ]
     },
     {
-        enunciado: "Ao final da discussão, você precisou criar uma imagem no computador que representasse o que pensa sobre IA. E agora?",
-        alternativas: [
+        enunciado: "apos isso lewis praneja acabar com voce, e voce descobre o que voce faz?",
+        alternativas: "negativo"
             {
-                texto: "Criar uma imagem utilizando uma plataforma de design como o Paint.",
+                texto: "captura ele, e prende ele no porao",
                 afirmacao: "positivo"
             },
             {
-                texto: "Criar uma imagem utilizando um gerador de imagem de IA.",
+                texto: "bate nele com uma barra de ferro",
                 afirmacao: "negativo"
             }
         ]
     },
     {
-        enunciado: "Você tem um trabalho em grupo de biologia para entregar na semana seguinte, o andamento do trabalho está um pouco atrasado e uma pessoa do seu grupo decidiu fazer com ajuda da IA. O problema é que o trabalho está totalmente igual ao do chat. O que você faz? ",
+        enunciado: "apos isso lewis fica completamente horrorizado e renuncia a presidencia para voce o que voce faz? ",
         alternativas: [
             {
-                texto: "Escrever comandos para o chat é uma forma de contribuir com o trabalho, por isso não é um problema utilizar o texto inteiro.",
+                texto: "aceita com felicidade",
                 afirmacao: "positivo"
             },
             {
-                texto: "O chat pode ser uma tecnologia muito avançada, mas é preciso manter a atenção pois toda máquina erra, por isso revisar o trabalho e contribuir com as perspectivas pessoais é essencial.",
+                texto: "recusa e faz o lewis de empregado o resto da vida",
                 afirmacao: "negativo"
             }
         ]
