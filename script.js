@@ -8,39 +8,69 @@ const textoResultado = document.querySelector(".texto-resultado");
         {
             enunciado: "Lewis nao queria renunciar a presidencia, mesmo voce fazendo mais que ele sendo presidente o que voce faz?",
             alternativas: [
+                {
                 "bate nele!",
+            afirmação: positivo
+            },
+            {
                 "tenta descobrir algum segredo dele!"
-            ]
+            afirmação: negativo
+            }
+          ]
         },
         {
             enunciado: "Apos isso voce resolve ir beber no bar do gus, chegando la voce escuta um barulho vindo da moita o que voce faz?",
             alternativas: [
+                {
                 "fica com medo, mas mesmo assim espia.",
+                afirmação:positivo
+                },
+                {
                 "começa a gravar e vai olhar o que é."
+                afirmação: negativo
+                }
             ]
         },
         {
             enunciado: "quando voce olha dentro da moita voce ve algo horrivel, Lewis com a marnie o que voce faz?++        ",
             alternativas: [
+                {
                 "começa a rir desesperadamente e ameaça contar para todo mundo.",
-                "fala que vai contar para todos."
+                afirmação: positivo
+                },
+                {
+                "fala que vai contar para todos.",
+                afirmação: negativo
+                }
             ]
         },
         {
             enunciado: "No outro dia, lewis vai te visitar e começa a implorar para voce nao contar para ninguem o que voce faz?",
             alternativas: [
+                {
                 "pede para ele anunciar que voce vai ser o novo/a presidente.",
+                afirmação: positivo
+                },
+                {
                 "pede para ele dinheiro e que ele renuncie a presidencia."
+                afirmação: negativo
+                }
             ]
         },
         {
             enunciado: "Apos isso lewis renunciou a presidencia, e voce virou o/a presidente o que voce faz com lewis agora? ",
             alternativas: [
+                {
                 "continuo ameaçando e zoando ele.",
+                afirmação: positivo
+                },
+                {
                 "Deixa ele viver feliz."
+                afirmação: negativo
+                }
             ]
-        }
-    ]
+        },
+    ];
    
 let atual = 0;
 let perguntaAtual;
