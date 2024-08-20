@@ -10,11 +10,11 @@ const textoResultado = document.querySelector(".texto-resultado");
             alternativas: [
                 {
                 "bate nele!",
-            afirmação: positivo
+            afirmação: 'positivo'
             },
             {
                 "tenta descobrir algum segredo dele!"
-            afirmação: negativo
+            afirmação: 'negativo'
             }
           ]
         },
@@ -23,11 +23,11 @@ const textoResultado = document.querySelector(".texto-resultado");
             alternativas: [
                 {
                 "fica com medo, mas mesmo assim espia.",
-                afirmação:positivo
+                afirmação: 'POSITIVO'
                 },
                 {
-                "começa a gravar e vai olhar o que é."
-                afirmação: negativo
+                "começa a gravar e vai olhar o que é.",
+                afirmação: "NEGATIVO"
                 }
             ]
         },
@@ -36,11 +36,11 @@ const textoResultado = document.querySelector(".texto-resultado");
             alternativas: [
                 {
                 "começa a rir desesperadamente e ameaça contar para todo mundo.",
-                afirmação: positivo
+                afirmação: "POSITIVO"
                 },
                 {
                 "fala que vai contar para todos.",
-                afirmação: negativo
+                afirmação: "NEGATIVO"
                 }
             ]
         },
@@ -49,11 +49,11 @@ const textoResultado = document.querySelector(".texto-resultado");
             alternativas: [
                 {
                 "pede para ele anunciar que voce vai ser o novo/a presidente.",
-                afirmação: positivo
+                afirmação: "POSITIVO"
                 },
                 {
                 "pede para ele dinheiro e que ele renuncie a presidencia."
-                afirmação: negativo
+                afirmação: "NEGATIVO"
                 }
             ]
         },
@@ -62,11 +62,11 @@ const textoResultado = document.querySelector(".texto-resultado");
             alternativas: [
                 {
                 "continuo ameaçando e zoando ele.",
-                afirmação: positivo
+                afirmação: "POSITIVO"
                 },
                 {
                 "Deixa ele viver feliz."
-                afirmação: negativo
+                afirmação:"NEGATIVO"
                 }
             ]
         },
